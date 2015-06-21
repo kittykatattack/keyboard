@@ -7,7 +7,7 @@ just a convenient wrapper function for HTML `keyup` and `keydown` events so that
 
 Here's how to use the `keyboard` function. Create a new keyboard object like this:
 ```js
-let keyObject = keyboard(asciiKeyCodeNumber);
+var keyObject = keyboard(asciiKeyCodeNumber);
 ```
 It's one argument is the ASCII key code number of the keyboard key
 that you want to listen for. [Here's a list of ASCII key codes you can
