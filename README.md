@@ -10,8 +10,8 @@ Here's how to use the `keyboard` function. Create a new keyboard object like thi
 let keyObject = keyboard(asciiKeyCodeNumber);
 ```
 It's one argument is the ASCII key code number of the keyboard key
-that you want to listen for. (Here's a list of ASCII key codes you can
-use)[http://www.asciitable.com].
+that you want to listen for. [Here's a list of ASCII key codes you can
+use](http://www.asciitable.com).
 Then assign `press` and `release` methods to the keyboard object like this:
 ```js
 keyObject.press = function() {
